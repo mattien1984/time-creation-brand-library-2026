@@ -1,0 +1,158 @@
+// The publisher embeds one atomic release here. No second script request can
+// leave Safari activating a worker with a different manifest than its gate.
+const config = {"version":"f38734c3a015382e5ce4","base":"/time-creation-brand-library-2026/","salt":"UNADb+AUavkNeqU9FCbH8vHeQwPEN5WREPy/68F3M3U=","iterations":210000,"files":{"app.js":{"file":"0195504c402c9bfe302a57cf89223580.bin","iv":"Jnx3P2tmleOvPigZ","type":"text/javascript; charset=utf-8"},"assets/graphics/cards/cc-0.jpg":{"file":"6e9b714684766d50f3d145a78a587cad.bin","iv":"Q5paCPAAoPGTjhwZ","type":"image/jpeg"},"assets/graphics/cards/cc-1.jpg":{"file":"30637ef8c19f1aecbd9e9779388a7080.bin","iv":"6gswGtm0Kpr8A8vz","type":"image/jpeg"},"assets/graphics/cards/cc-2.jpg":{"file":"96308c00b560b8edbaf9a11976cf0a8d.bin","iv":"drE8fIbe2+AQuNtP","type":"image/jpeg"},"assets/graphics/cards/cc-3.jpg":{"file":"a41f7ce7311ce981e55b978964b4011d.bin","iv":"BGuXkAZq8I+FkTkR","type":"image/jpeg"},"assets/graphics/cards/cc-4.jpg":{"file":"378f61ec3abc1a779871336f67d540a6.bin","iv":"n1TZQ8MUN/SlqLiD","type":"image/jpeg"},"assets/graphics/cards/cc-5.jpg":{"file":"b07722c83bb5119fae41e63f5d983878.bin","iv":"HGTYchV8eCUC2uqR","type":"image/jpeg"},"assets/graphics/cards/cc-6.jpg":{"file":"e7c998e8066e88fedb2207c89e079b52.bin","iv":"Mi77yusTZSyLp7ft","type":"image/jpeg"},"assets/graphics/cards/cc-7.jpg":{"file":"13b465cb7a664f28b5ed61fa524df1b1.bin","iv":"LtKpDfxAzrSBmtJq","type":"image/jpeg"},"assets/graphics/cards/eg-0.jpg":{"file":"cc307273ef9f368c8b45ee26e7f81c12.bin","iv":"y6xpxKShWHPdmlPV","type":"image/jpeg"},"assets/graphics/cards/eg-1.jpg":{"file":"49d6c297bdfc72f6b2a61cffd7ed6b6a.bin","iv":"dJwH3CM5hwTL9tuj","type":"image/jpeg"},"assets/graphics/cards/eg-2.jpg":{"file":"d80419140ef68effb35449fcd1e6cf51.bin","iv":"fXwkg5fufNKtP4cQ","type":"image/jpeg"},"assets/graphics/cards/eg-3.jpg":{"file":"c20b462dce678c094db654dd8173096f.bin","iv":"zHpwmuaWl62MmeNV","type":"image/jpeg"},"assets/graphics/cards/eg-4.jpg":{"file":"f3246872180298beac19df214b7a1324.bin","iv":"ppCJMvbHEkmjIkNk","type":"image/jpeg"},"assets/graphics/cards/eg-5.jpg":{"file":"9beedd9eac2c942fe8408de2cd6bf847.bin","iv":"O9bME0nkjIg5wRLg","type":"image/jpeg"},"assets/graphics/cards/eg-6.jpg":{"file":"57e532fd351bc1cff57be122f6c108ba.bin","iv":"G010bESGzqTOioWP","type":"image/jpeg"},"assets/graphics/cards/eg-7.jpg":{"file":"85ae3a70acf1493f7ccc0d58cb975c9b.bin","iv":"u/l2GGCAHWE8pGVx","type":"image/jpeg"},"assets/graphics/frames/full-grid-1x.png":{"file":"a51ebc1d4665236408ac7ed220d273c2.bin","iv":"3g3j/lTg6MGrO2bg","type":"image/png"},"assets/graphics/frames/full-grid-3x.png":{"file":"26242e4d8fadd740805d54ccb9902c8b.bin","iv":"ZEigQdx9fkH6ojKX","type":"image/png"},"assets/graphics/frames/full-hashes-lines.png":{"file":"1cfa83ac0773bd2fbc971d973ad7be63.bin","iv":"qVvgbYiAPht1A6Rn","type":"image/png"},"assets/graphics/frames/full-hashes.png":{"file":"be093f45fba4a6b9508086ddb2bf106c.bin","iv":"GtJCimKsABuLKfVY","type":"image/png"},"assets/graphics/frames/quarter-hashes-lines.png":{"file":"5f4445c96f673f5e3f0ff4960eb7ee95.bin","iv":"jDj37Y5y+mRf/Cn+","type":"image/png"},"assets/graphics/frames/quarter-hashes.png":{"file":"fdc1246c3120dc525724354b58b46464.bin","iv":"tXMdoGCGXHC7UQzA","type":"image/png"},"assets/graphics/time-block-photo.jpg":{"file":"5a299c14b56313421cc370266e13ddb1.bin","iv":"b45nnT9UoTgJ1nU+","type":"image/jpeg"},"assets/grids/arch-block.svg":{"file":"ace850b51ef5ded3ccdf3020a552ca5d.bin","iv":"W8LcJG0dUsUZLOiZ","type":"image/svg+xml"},"assets/grids/arch-fabric.svg":{"file":"4aef5a061e70fa906b0b52dd7b0223bd.bin","iv":"mVz2PxLpMEOsZ6fT","type":"image/svg+xml"},"assets/grids/arch-foundation.svg":{"file":"6405b47c166189ca22314cea28016cd3.bin","iv":"QJjCzPcjH4wzZpxH","type":"image/svg+xml"},"assets/grids/block.svg":{"file":"3b5b1640ad3d0b09af7461b6866ada52.bin","iv":"LhVfGcgLjzRNkE4l","type":"image/svg+xml"},"assets/grids/diagram-block.svg":{"file":"3c5c038a417ae8616b0d91bb0e5ead74.bin","iv":"y0JfL4LljGcDVBqR","type":"image/svg+xml"},"assets/grids/diagram-fabric.svg":{"file":"0d04d837fe85236389da332c6e2fa5ed.bin","iv":"lWh9q5xlS0OMeYG1","type":"image/svg+xml"},"assets/grids/diagram-foundation.svg":{"file":"8f34f4c7d1afc7e26551e750027adbf6.bin","iv":"8BRnEZvBWvzJh05u","type":"image/svg+xml"},"assets/grids/fabric.svg":{"file":"b24c8a2d5b180a77df9fce1204f1be04.bin","iv":"m8jPYdfPrujUAOR8","type":"image/svg+xml"},"assets/grids/foundation.svg":{"file":"41dae018ed7015cf4201f3aa8e47f2e6.bin","iv":"sT93wsAEr/qPtbHZ","type":"image/svg+xml"},"assets/grids/separated-layers.svg":{"file":"d5f045b5fda0400d80866e9dcaec7a77.bin","iv":"PYC4ZOqjz0rMhePT","type":"image/svg+xml"},"assets/logos/existence-black.png":{"file":"074d470ed2faa0a629c0d5cb4079a0c6.bin","iv":"HVE7hwYRlSQFn095","type":"image/png"},"assets/logos/existence-black.svg":{"file":"8d716ca8df736240319ecc358dc55315.bin","iv":"yhiNAhesJe/UpbV+","type":"image/svg+xml"},"assets/logos/existence-ink.png":{"file":"26539444e459510ef38f23ab4a91d6f5.bin","iv":"ME2/GTZUBV4GBUmx","type":"image/png"},"assets/logos/existence-ink.svg":{"file":"600f5488441b6a874a9f88ab7733ef12.bin","iv":"k9K/FY8DbKMvxkBM","type":"image/svg+xml"},"assets/logos/existence-white.png":{"file":"5c0770ed02c8e7a585b52960407bc60a.bin","iv":"HhwRkbO8C+4BlRGF","type":"image/png"},"assets/logos/existence-white.svg":{"file":"7843df6d5a80f9981f4157c8c7e4121b.bin","iv":"LEhYgMj43Q9cXkKX","type":"image/svg+xml"},"assets/logos/existence.svg":{"file":"d5268455c41c2e8d5a0a1fc5c62068ab.bin","iv":"xPxbCGPW1FJOsokz","type":"image/svg+xml"},"assets/logos/symbol-black.png":{"file":"15b06cccfee4c2715b346d300cb2d655.bin","iv":"jEKoPKzC5VVe83xZ","type":"image/png"},"assets/logos/symbol-black.svg":{"file":"e96b90c24ab505178ad7130363a771c7.bin","iv":"fcWIIq0Az/5axQJf","type":"image/svg+xml"},"assets/logos/symbol-ink.png":{"file":"f720f05008520daa9461160d1f89d334.bin","iv":"B1UtkJVV8014ynKi","type":"image/png"},"assets/logos/symbol-ink.svg":{"file":"993e19aa8ad28a48c566addfbf7de2e2.bin","iv":"P0saG0b8uzTM6seU","type":"image/svg+xml"},"assets/logos/symbol-white.png":{"file":"3ffc706c35a039c01d4d878b4692fed0.bin","iv":"cgdJ1S38oQTB/03z","type":"image/png"},"assets/logos/symbol-white.svg":{"file":"c3682295438c36186b28fee795c5dce4.bin","iv":"+QWld/t4pF83OUrI","type":"image/svg+xml"},"assets/logos/symbol.svg":{"file":"742b455606ec23b1898abcd8a44445f6.bin","iv":"c8VgsmsmiWfRbhYe","type":"image/svg+xml"},"assets/logos/time-creation-project-black.png":{"file":"776a6f13b9969cbd56363407b85dd4a3.bin","iv":"K6exlokcmgwsCQz4","type":"image/png"},"assets/logos/time-creation-project-black.svg":{"file":"bb58d495cd4a30dc5db4de3a17b769d5.bin","iv":"55Zq27tkXxwQju3a","type":"image/svg+xml"},"assets/logos/time-creation-project-ink.png":{"file":"2aa9d8d69763e48b70f5026eeafd510d.bin","iv":"ocsxFnlgClYURSnM","type":"image/png"},"assets/logos/time-creation-project-ink.svg":{"file":"6f07f09070507618701fc68be38d38df.bin","iv":"VHzaf381ZsbCwoxb","type":"image/svg+xml"},"assets/logos/time-creation-project-white.png":{"file":"79d306040edea8f3601ac0ffd5c45210.bin","iv":"C3fG9KVM8QetBQOR","type":"image/png"},"assets/logos/time-creation-project-white.svg":{"file":"f25b5963c7887f6cedf0be1531583ae8.bin","iv":"hoUUdwtIfhBS486U","type":"image/svg+xml"},"assets/logos/time-creation-project.svg":{"file":"01e0ac3e7b98d4aedbef909603ffc887.bin","iv":"pPfkK1IWwZ+BCM4L","type":"image/svg+xml"},"assets/logos/time-creation-white.svg":{"file":"e446568aed9b4fc1c1f0606990be856c.bin","iv":"Bh/3pYqKYFh1yHtC","type":"image/svg+xml"},"assets/logos/time-creationism-black.png":{"file":"ac367060c000911f02fb764ebf3ee0b5.bin","iv":"+RnOFCYEd9EVPqNM","type":"image/png"},"assets/logos/time-creationism-black.svg":{"file":"09ce350bafb3827697356ba221289b7b.bin","iv":"epWrH8LgaqoIiXXX","type":"image/svg+xml"},"assets/logos/time-creationism-ink.png":{"file":"ebfebc850873bf6f5c29b3c6f7f28453.bin","iv":"phPLRtDr6m/fxAcd","type":"image/png"},"assets/logos/time-creationism-ink.svg":{"file":"ad1716463649a1aaa76209bed3201a45.bin","iv":"/fc82ZCK9bOHhiJO","type":"image/svg+xml"},"assets/logos/time-creationism-white.png":{"file":"1858e1e14cc47b46cb98087e246b7c62.bin","iv":"tNdm6zPuh0rulpj0","type":"image/png"},"assets/logos/time-creationism-white.svg":{"file":"393aa9acbf5eaf48f1ca1c919d4d12de.bin","iv":"3NgLXMJX4u4Oh2Qy","type":"image/svg+xml"},"assets/logos/time-creationism.svg":{"file":"ed2571e6a75db17236851727b8f8d117.bin","iv":"L39/ghePJHUHCuzY","type":"image/svg+xml"},"assets/ocean.jpg":{"file":"1aee62c4431217f453022ad7a43189ff.bin","iv":"7TYSZhlbgL8tc3C8","type":"image/jpeg"},"assets/photography/existence-background.jpg":{"file":"dede1c9bb679f6a25bc1a0b5916a7e46.bin","iv":"7D+RSl8am9DI7qF/","type":"image/jpeg"},"assets/photography/existence-clock.jpg":{"file":"a4ba2df26c1dbcc45b2b703d86725690.bin","iv":"SL70CZR4buVKexsi","type":"image/jpeg"},"assets/photography/rob-portrait.jpg":{"file":"1377fdb5c8f9e12b393e0faa4b60b2f9.bin","iv":"2ewC53meMFcfFGfA","type":"image/jpeg"},"assets/photography/tcp-thumb.jpg":{"file":"5a665ccd23e9a0c86a3df049c1f7bb64.bin","iv":"jnhqiQSB1OtiUbYn","type":"image/jpeg"},"assets/photography/time-creation-project-sun.jpg":{"file":"92bf908d363f1fe11f40daf86bebc301.bin","iv":"wh4H5D4yqFJ7hfZQ","type":"image/jpeg"},"assets/photography/time-creationism-moon.jpg":{"file":"781f672821e49b6b6f0a3033e63bc303.bin","iv":"GxFLcatlwIHlbeWV","type":"image/jpeg"},"assets/posters/ex-0-0.jpg":{"file":"18c9c088c5a47088d4b575f515dcbd92.bin","iv":"/JqAnTSN/MluHSd9","type":"image/jpeg"},"assets/posters/ex-0-1.jpg":{"file":"625fdc2eac1280393ebb7f310506cb7d.bin","iv":"8rV465geSd7QJVh4","type":"image/jpeg"},"assets/posters/ex-0-2.jpg":{"file":"063fcea48d9e41944eb1f3a4ea79c439.bin","iv":"wvxhy8lAreOCNpF9","type":"image/jpeg"},"assets/posters/ex-0-3.jpg":{"file":"f1db33490f4e33a1a95676a36c6880bf.bin","iv":"goj3+ZOhufNaW6wU","type":"image/jpeg"},"assets/posters/ex-0-4.jpg":{"file":"80f543aa7ee60c4c8fa74af4b7c93240.bin","iv":"EPj4hy7JSBrPseYC","type":"image/jpeg"},"assets/posters/ex-1-0.jpg":{"file":"c6c9b83b18b4b93fa8007595e302eeb7.bin","iv":"6nuW5QmRSbMhUBQM","type":"image/jpeg"},"assets/posters/ex-1-1.jpg":{"file":"73b814fe635e2b2cecf2ac69c96ae26d.bin","iv":"tP3UY3lD5JJa7ok7","type":"image/jpeg"},"assets/posters/ex-1-2.jpg":{"file":"9fbe27fcac9b1e0960fcc1040a186118.bin","iv":"lzvYg5rRudfFUbh0","type":"image/jpeg"},"assets/posters/ex-1-3.jpg":{"file":"9e9ba0089672c39e3252d05a80abf4ea.bin","iv":"oaaWB0eLzKCwNEUs","type":"image/jpeg"},"assets/posters/ex-1-4.jpg":{"file":"7431cb61cdf212b6c06a04324ec0836a.bin","iv":"oerjH9CdV3g1NTBJ","type":"image/jpeg"},"assets/posters/ex-2-0.jpg":{"file":"5d10c3a27a606e57c08fe130d8d8ac1e.bin","iv":"dPPhjvvREPon8pQO","type":"image/jpeg"},"assets/posters/ex-2-1.jpg":{"file":"cd30d86ab26ed94f8eaf53515abbf4cc.bin","iv":"7PzkwI1UVQ37gmrq","type":"image/jpeg"},"assets/posters/ex-2-2.jpg":{"file":"c4600be6c0e66580eddad80a3ef30829.bin","iv":"x/+Acpr3wfjjNa61","type":"image/jpeg"},"assets/posters/ex-2-3.jpg":{"file":"9fa291889896027e8de75996c076ad93.bin","iv":"eofQ+q2IlVYfTyp6","type":"image/jpeg"},"assets/posters/ex-2-4.jpg":{"file":"7d86aba34e082deca0c23c53c58959d5.bin","iv":"sqnLoY2Hur5P8OBJ","type":"image/jpeg"},"assets/posters/tc-0-0.jpg":{"file":"af28859401c69376766c5146db64e74c.bin","iv":"lP5bUk6wPh/oOAHR","type":"image/jpeg"},"assets/posters/tc-0-1.jpg":{"file":"5865724b8978df7984540eb5a3838e3d.bin","iv":"BJFaXVn3Zwp1QYNA","type":"image/jpeg"},"assets/posters/tc-0-2.jpg":{"file":"738bbd21fdfb46a9d6ea66e98bca27e0.bin","iv":"ZELCjRTSfwtwUmVh","type":"image/jpeg"},"assets/posters/tc-0-3.jpg":{"file":"e4416b7e4f9fc6ccc34fe01b666f27f9.bin","iv":"3DskwpBOuBSIWPLU","type":"image/jpeg"},"assets/posters/tc-0-4.jpg":{"file":"568acff2ebdc94da3a4ba7c262da3e80.bin","iv":"iukZ+8MfMicuky8T","type":"image/jpeg"},"assets/posters/tc-1-0.jpg":{"file":"51bbecd3b0fbce0db183fdc59022c457.bin","iv":"PCmklb3KMStVkuxA","type":"image/jpeg"},"assets/posters/tc-1-1.jpg":{"file":"e3fdfdb70a1e5f224efc23df07169ad7.bin","iv":"ndF5XMv5xryg9TgC","type":"image/jpeg"},"assets/posters/tc-1-2.jpg":{"file":"3ae57a8a1bef3663c5e5e33b7a623ae4.bin","iv":"v1U3B8DGByZHzK2l","type":"image/jpeg"},"assets/posters/tc-1-3.jpg":{"file":"39fb7da0043fbd0fa70eb1159e9ec3f9.bin","iv":"9PBvkUi/0KyPr5rV","type":"image/jpeg"},"assets/posters/tc-1-4.jpg":{"file":"f9b6dff5ee23b6ddf4e2886a01c4ba5d.bin","iv":"Pggj9QB3zMxC2r5u","type":"image/jpeg"},"assets/posters/tc-2-0.jpg":{"file":"9f6a8be02cbad006a6a8a308d927f208.bin","iv":"j/ER0mvmVE5Ah9sq","type":"image/jpeg"},"assets/posters/tc-2-1.jpg":{"file":"4a5e0b292fc8e05b614785f45ff07d17.bin","iv":"7lyQK+jfKuVwEbVZ","type":"image/jpeg"},"assets/posters/tc-2-2.jpg":{"file":"2aedd861ae6f5598615b06db423c83af.bin","iv":"Ji8TS+RtxEZ8H7Ld","type":"image/jpeg"},"assets/posters/tc-2-3.jpg":{"file":"8dcaef00bd50de287f712cf274da1717.bin","iv":"FIN56vFj2RSxQHrZ","type":"image/jpeg"},"assets/posters/tc-2-4.jpg":{"file":"d193cc06f2c260ddce16cffb583f8bfd.bin","iv":"ZluPfPcbuiMzQvr/","type":"image/jpeg"},"assets/posters/tcp-0-0.jpg":{"file":"49b9a60304b50ea784f53c4e3c66db8a.bin","iv":"5SZdzBSDYnhFQiC9","type":"image/jpeg"},"assets/posters/tcp-0-1.jpg":{"file":"58c4fb3c984d97cbf1cb15c7e48b4028.bin","iv":"Obxc+UKUKXeS7noi","type":"image/jpeg"},"assets/posters/tcp-0-2.jpg":{"file":"987919cfa7aae4d702b5fd94db86721a.bin","iv":"8gT6nEHLLBhltG8c","type":"image/jpeg"},"assets/posters/tcp-0-3.jpg":{"file":"461bba1977247f4bb7b83318157a8500.bin","iv":"ga87vGcBpcNepCas","type":"image/jpeg"},"assets/posters/tcp-1-0.jpg":{"file":"4d5e5f7fed088448b8bf5302655f2b50.bin","iv":"VNZrSUt9Oytp7UFf","type":"image/jpeg"},"assets/posters/tcp-1-1.jpg":{"file":"70fb1efc76dfd4d10909ea5e0a52942f.bin","iv":"SCdZsQamhf5d5kYC","type":"image/jpeg"},"assets/posters/tcp-1-2.jpg":{"file":"c444b3d418b05270065776fe74aaac10.bin","iv":"zHN9fswLbAkSCn+J","type":"image/jpeg"},"assets/posters/tcp-1-3.jpg":{"file":"a822b43f6349576b9b1f034214847f7d.bin","iv":"R+58eqhb/YwCwpZE","type":"image/jpeg"},"assets/world-textures/existence.webp":{"file":"1fec5418dadf4277148abaf853b4da6b.bin","iv":"TI3a3YLgmOjEp/WB","type":"image/webp"},"assets/world-textures/tc.webp":{"file":"37cffda1f83231dbbfac3da025d6026f.bin","iv":"0HjBGlDFjrrN9Py8","type":"image/webp"},"assets/world-textures/tcp.webp":{"file":"84aa956e857462355fdf9ee42b1277d4.bin","iv":"/tnOFXpGGrp93aMU","type":"image/webp"},"brand-content.js":{"file":"de45b5cf9fd76ca23bc2bc330fcb6428.bin","iv":"QHM8JgrWX7yLA5XZ","type":"text/javascript; charset=utf-8"},"data.js":{"file":"8d3e30bd958314a4b089a3dcd55f7b05.bin","iv":"H3qXUZHqfy7tvCxB","type":"text/javascript; charset=utf-8"},"downloads/existence-assets.zip":{"file":"dc7b4dfcc38949992974fcbd14e1a680.bin","iv":"SsP1na0KopOyAMgN","type":"application/zip"},"downloads/sunrise-palette.json":{"file":"5e4a34bd14f642a3b2187b96bf34a03e.bin","iv":"7jqdr6p7RBa7feiM","type":"application/json"},"downloads/sunrise-swatches.zip":{"file":"b10d9a24767285bd46b6de442519b6de.bin","iv":"xjgtyICg2R0o3UgJ","type":"application/zip"},"downloads/swatches/black.svg":{"file":"1eab78daddd609b18fb568dde5bd08af.bin","iv":"PpjFap8l3UPUH14B","type":"image/svg+xml"},"downloads/swatches/blue.svg":{"file":"e1a52bf3abc5f617cc6f842d781409ba.bin","iv":"ZW+Hr0SfQWoF9s9U","type":"image/svg+xml"},"downloads/swatches/deep-green.svg":{"file":"0e4ef011ec9946036f458545209a5996.bin","iv":"xL8Wfcz27FBPARi0","type":"image/svg+xml"},"downloads/swatches/deep-teal.svg":{"file":"3cff68ccd00593b42689f2e0e901ee0d.bin","iv":"VyYhDl1SK51sejSe","type":"image/svg+xml"},"downloads/swatches/gold.svg":{"file":"3e95fe8efa2056655551cd309e5f76f8.bin","iv":"skSgF74r9u8m4awn","type":"image/svg+xml"},"downloads/swatches/navy.svg":{"file":"e3e981d5cd3cfa8f600cb8c2f2edf620.bin","iv":"6VWnmTtKK9BuwZv3","type":"image/svg+xml"},"downloads/swatches/orange.svg":{"file":"63912e6b3f305d9148ebb82e3a61fa1b.bin","iv":"ea5DFk2N3HPGksyz","type":"image/svg+xml"},"downloads/swatches/sunrise.svg":{"file":"8e8674612493c4f96dd7b4c37a63ec5e.bin","iv":"OdN+SPxybgYUCLU5","type":"image/svg+xml"},"downloads/swatches/teal.svg":{"file":"e4d75b2d6ca8bc045542a3d7e0536a86.bin","iv":"z+MIvAe80nC2Bi/g","type":"image/svg+xml"},"downloads/swatches/white.svg":{"file":"9a4febd8cb0baf67223f3c9ac72a4af9.bin","iv":"kJLlZ4LMg2hC5tut","type":"image/svg+xml"},"downloads/time-creation-brand-assets.zip":{"file":"06ff1ca39369a56ef2118df69b8ba3c9.bin","iv":"kJ8Qy9umHykPtowt","type":"application/zip"},"downloads/time-creation-palette.css":{"file":"23e3facef4059df3f0c62b1e4493cbca.bin","iv":"b/4YqZtzpoHpY5NR","type":"text/css; charset=utf-8"},"downloads/time-creation-project-assets.zip":{"file":"31d777ecd10b31cb7ec3ebba887802ca.bin","iv":"RE5xmI7TaVVoOZY/","type":"application/zip"},"downloads/time-creationism-assets.zip":{"file":"465e82aa53b1fed367ccff1c8c5db29f.bin","iv":"IBKxb1BbNmAtxno+","type":"application/zip"},"existence-system.js":{"file":"d00eba6c09542b5b77cbf5ea63e69ec8.bin","iv":"B0TgYT+/HCsjKJVl","type":"text/javascript; charset=utf-8"},"existence-ui.js":{"file":"ceec2adb131e0859025127fc4f43e7f0.bin","iv":"ePQAJUXydOowR33Z","type":"text/javascript; charset=utf-8"},"fonts/roobert-medium.otf":{"file":"d2651305ca166df84553c7edab2a8f3c.bin","iv":"8bjJt6NCQqC8j3cI","type":"font/otf"},"fonts/roobert-regular.otf":{"file":"10a49c7a84cddcc131f1e90cc8a14e7b.bin","iv":"UogqX27NPONdLKuw","type":"font/otf"},"fonts/roobert-semi-mono.otf":{"file":"67df7659d7bfbbd2e7da6102ed2b3575.bin","iv":"dTN2Jjmcqw9IUP0i","type":"font/otf"},"fonts/season-mix-italic.otf":{"file":"d76b526000c89b6e412ed6a5a246f25b.bin","iv":"KVA8yhUmy04zUGcs","type":"font/otf"},"fonts/season-mix-regular.otf":{"file":"e2f9a9c1909d1c5db19f9e8f48daeb4c.bin","iv":"M2BS4g1SBdKKqqfP","type":"font/otf"},"grid-previews.js":{"file":"e0fdc075191573b59ef1fd870167786f.bin","iv":"PD1KukuvRCmY0Wd3","type":"text/javascript; charset=utf-8"},"hub-data.js":{"file":"32b4a8881ed2077be7d86f2937534f16.bin","iv":"o7aUizbnJTqWsgxh","type":"text/javascript; charset=utf-8"},"index.html":{"file":"0cbd57993bddc5b24b2659fc46d232e0.bin","iv":"jO7bgMpd9mLj0TcO","type":"text/html; charset=utf-8"},"library-model.js":{"file":"c8ca9d9a4a759d631fd7848d9b16cd74.bin","iv":"Z4QC2cYm2f/o8fFx","type":"text/javascript; charset=utf-8"},"poster-dimensions.js":{"file":"03ab551c542e438f945e26015c0805d7.bin","iv":"qR6Oe0H0yMWkHqmK","type":"text/javascript; charset=utf-8"},"styles.css":{"file":"fe430d3800d8b0ead0e9cebc5abc0625.bin","iv":"J2SOgsVIytSDws/l","type":"text/css; charset=utf-8"},"system-content.js":{"file":"93718264dbf973c95e5d2f5c3e6928f4.bin","iv":"Mx2zjkeXniUy3Y/1","type":"text/javascript; charset=utf-8"}}};
+const databaseName = 'time-creation-preview:'+config.base;
+let session, unlocked=false;
+const decrypted = new Map();
+const decode = text => Uint8Array.from(atob(text), c=>c.charCodeAt(0));
+
+async function database() {
+  return new Promise((resolve,reject) => {
+    let finished=false;
+    const timer=setTimeout(()=>{finished=true;reject(new Error('Preview storage took too long.'));},3000);
+    const request=indexedDB.open(databaseName,1);
+    request.onupgradeneeded=()=>request.result.createObjectStore('session');
+    request.onsuccess=()=>{clearTimeout(timer);if(finished)request.result.close();else resolve(request.result);};
+    request.onerror=()=>{clearTimeout(timer);reject(request.error);};
+    request.onblocked=()=>{clearTimeout(timer);finished=true;reject(new Error('Preview storage is busy.'));};
+  });
+}
+function storageTimeout(promise) {
+  return new Promise((resolve,reject)=>{
+    const timer=setTimeout(()=>reject(new Error('Preview storage took too long.')),3000);
+    promise.then(value=>{clearTimeout(timer);resolve(value);},error=>{clearTimeout(timer);reject(error);});
+  });
+}
+async function readSession() {
+  const db=await database();
+  try { return await storageTimeout(new Promise((resolve,reject)=>{const request=db.transaction('session').objectStore('session').get(config.version);request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);})); }
+  finally {db.close();}
+}
+async function saveSession(value) {
+  const db=await database();
+  try {await storageTimeout(new Promise((resolve,reject)=>{const transaction=db.transaction('session','readwrite');transaction.objectStore('session').clear();transaction.objectStore('session').put(value,config.version);transaction.oncomplete=resolve;transaction.onerror=()=>reject(transaction.error);transaction.onabort=()=>reject(transaction.error);}));}
+  finally {db.close();}
+}
+const restored=readSession().then(value=>{if(!unlocked&&value?.expires>Date.now())session=value;}).catch(()=>{});
+function boundedOperation(promise,milliseconds,message) {
+  let timer;
+  return Promise.race([promise,new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error(message)),milliseconds);})]).finally(()=>clearTimeout(timer));
+}
+async function decryptFile(path,key) {
+  const item=config.files[path];
+  const ciphertext=await boundedNetwork(async signal=>{
+    let response;
+    try {response=await fetch(new URL(config.base+'.sealed/'+item.file,self.location.origin),{cache:'force-cache',signal});}
+    catch {throw new Error('Preview asset could not connect. Please retry. [NET]');}
+    if(!response.ok)throw new Error('Preview asset could not download. Please reload. [NET]');
+    return response.arrayBuffer();
+  },15000,'Preview asset download took too long. Please retry. [NET]').catch(error=>{
+    if(error.message.includes('[NET]'))throw error;
+    throw new Error('Preview asset download was interrupted. Please retry. [NET]');
+  });
+  return boundedOperation(crypto.subtle.decrypt({name:'AES-GCM',iv:decode(item.iv)},key,ciphertext),8000,'Preview asset could not finish opening. Please retry. [CRYPTO]');
+}
+self.addEventListener('install',event=>event.waitUntil(self.skipWaiting()));
+self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
+self.addEventListener('message',event=>{
+  if(!event.ports[0])return;
+  if(event.data?.type==='ping'){event.ports[0].postMessage({ok:true,version:config.version});return;}
+  if(event.data?.type!=='unlock')return;
+  event.waitUntil((async()=>{
+    try {
+      if(event.data.version && event.data.version!==config.version)throw new Error('The preview has been updated. Reload this page and enter the password again. [VERSION]');
+      let key=event.data.key,index;
+      if(event.data.keyBytes) {
+        const bytes=new Uint8Array(event.data.keyBytes);
+        try {
+          if(bytes.byteLength!==32||!event.data.ciphertext?.byteLength)throw new Error('Preview key transfer was incomplete. Please retry. [OPEN]');
+          key=await boundedOperation(crypto.subtle.importKey('raw',bytes,{name:'AES-GCM'},false,['decrypt']),3000,'Preview key transfer took too long. Please retry. [KEY]');
+        } finally {bytes.fill(0);}
+        // The page has already downloaded and validated this encrypted entry.
+        // Validate it here too, without a second network request or key cloning.
+        index=await boundedOperation(crypto.subtle.decrypt({name:'AES-GCM',iv:decode(config.files['index.html'].iv)},key,event.data.ciphertext),5000,'Preview entry could not finish opening. Please retry. [CRYPTO]');
+      } else index=await decryptFile('index.html',key); // Existing unlocked tabs/tests.
+      const activeSession={key,expires:Date.now()+12*60*60*1000};
+      unlocked=true;session=activeSession;
+      decrypted.clear();decrypted.set('index.html',Promise.resolve(index));
+      event.ports[0].postMessage({ok:true,version:config.version});
+      // Storage is optional for this visit. Keep the worker alive for a bounded
+      // save, but never make a phone wait for IndexedDB before opening the site.
+      await saveSession(activeSession).catch(()=>{});
+    } catch(error) {
+      const password=error.name==='OperationError';
+      const code=password?'PASSWORD':/\[([A-Z]+)\]$/.exec(error.message)?.[1]||'OPEN';
+      event.ports[0].postMessage({ok:false,code,error:password?'That password didn’t match. Please try again.':error.message.replace(/\s*\[[A-Z]+\]$/,'')});
+    }
+  })());
+});
+// Re-check only document navigations. A cached, unlocked old shell must not
+// keep requesting ciphertext removed by a newer deployment.
+let releaseProbe, checkedAt=0, checkedToken, newerRelease=false;
+async function boundedNetwork(task, milliseconds=2500, message='Preview network timed out.') {
+  const controller=new AbortController();let timer;
+  try {return await Promise.race([task(controller.signal),new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error(message)),milliseconds);})]);}
+  finally {clearTimeout(timer);controller.abort();}
+}
+async function hasNewRelease(url) {
+  if(newerRelease)return true;
+  const token=new URL(url).searchParams.get('v')||'';
+  if(!releaseProbe&&(Date.now()-checkedAt>30000||checkedToken!==token)) {
+    releaseProbe=boundedNetwork(async signal=>{
+      const response=await fetch(config.base+'vault-config.js?check='+Date.now(),{cache:'no-store',signal});
+      if(!response.ok)throw new Error('Manifest unavailable');
+      const source=await response.text();
+      const match=/^self\.VAULT\s*=\s*(\{[\s\S]*\})\s*;?\s*$/.exec(source);
+      if(!match)throw new Error('Invalid manifest');
+      const latest=JSON.parse(match[1]);
+      if(typeof latest.version!=='string'||latest.base!==config.base)throw new Error('Invalid release');
+      newerRelease=latest.version!==config.version;checkedAt=Date.now();checkedToken=token;
+    }).catch(()=>{}).finally(()=>{releaseProbe=undefined;});
+  }
+  await releaseProbe;
+  return newerRelease;
+}
+async function passwordPage() {
+  try {return await boundedNetwork(async signal=>{
+    const response=await fetch(config.base+'gate.html',{cache:'no-store',signal});
+    return new Response(await response.arrayBuffer(),{status:response.status,headers:response.headers});
+  },5000);}
+  catch {return new Response('The preview could not connect. Please reload to try again.',{status:503,headers:{'Content-Type':'text/plain','Cache-Control':'no-store'}});}
+}
+async function respond(request,path) {
+  if(!session)await restored;
+  if(!session||session.expires<=Date.now()) {
+    session=undefined;decrypted.clear();
+    if(request.mode==='navigate') return passwordPage();
+    return new Response('Preview password required',{status:401,headers:{'Cache-Control':'no-store'}});
+  }
+  if(request.mode==='navigate'&&await hasNewRelease(request.url))return passwordPage();
+  if(path===''||path==='index.html'||(request.mode==='navigate'&&!config.files[path]))path='index.html';
+  const item=config.files[path];
+  if(!item)return new Response('Not found',{status:404});
+  try {
+    if(!decrypted.has(path))decrypted.set(path,decryptFile(path,session.key).catch(error=>{decrypted.delete(path);throw error;}));
+    const buffer=await decrypted.get(path);
+    const headers={'Content-Type':item.type,'Content-Length':String(buffer.byteLength),'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Accept-Ranges':'bytes'};
+    const range=request.headers.get('Range');
+    if(range) {
+      const match=/^bytes=(\d*)-(\d*)$/.exec(range);
+      if(!match||(!match[1]&&!match[2]))return new Response(null,{status:416,headers:{'Content-Range':`bytes */${buffer.byteLength}`}});
+      const start=match[1]?Number(match[1]):Math.max(0,buffer.byteLength-Number(match[2]));
+      const end=match[1]&&match[2]?Math.min(Number(match[2]),buffer.byteLength-1):buffer.byteLength-1;
+      if(start>end||start>=buffer.byteLength)return new Response(null,{status:416,headers:{'Content-Range':`bytes */${buffer.byteLength}`}});
+      headers['Content-Range']=`bytes ${start}-${end}/${buffer.byteLength}`;
+      headers['Content-Length']=String(end-start+1);
+      return new Response(request.method==='HEAD'?null:buffer.slice(start,end+1),{status:206,headers});
+    }
+    return new Response(request.method==='HEAD'?null:buffer,{headers});
+  } catch {return new Response('Unable to load preview asset. Please reload.',{status:503});}
+}
+self.addEventListener('fetch',event=>{
+  const url=new URL(event.request.url);
+  if(url.origin!==self.location.origin||!url.pathname.startsWith(config.base))return;
+  const path=decodeURIComponent(url.pathname.slice(config.base.length));
+  if(['gate.html','gate.js','sw.js','vault-config.js'].includes(path)||path.startsWith('.sealed/'))return;
+  if(!['GET','HEAD'].includes(event.request.method))return;
+  event.respondWith(respond(event.request,path));
+});
